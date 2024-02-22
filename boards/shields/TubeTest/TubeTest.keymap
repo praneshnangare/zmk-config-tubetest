@@ -16,8 +16,8 @@
                 };
                 bt_layer {
                         bindings = <
-                          &kp Z          &kp Y         &kp X  &bt BT_CLR_ALL    &bootloader
-                          &bt BT_NXT     
+                          &kp Z          &kp Y         &kp X            &bt BT_CLR_ALL    &bootloader
+                          &bt BT_NXT     &out OUT_USB  &out OUT_BLE
                         >;
                 };
         };
