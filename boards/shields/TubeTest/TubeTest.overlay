@@ -4,7 +4,7 @@
   };
 
   defualt_kscan: kscan {
-    compatible = "zmk, kscan-gpio-direct";
+    compatible = "zmk,kscan-gpio-direct";
     label = "defualt_kscan";
 
     input-gpios = 
