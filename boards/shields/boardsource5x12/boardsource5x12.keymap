@@ -16,9 +16,14 @@
 
         default_layer {
             bindings = <
-                &kp A
+                &kp A   &kp B     &kp C    &mo 1
+            >;
+        };
+        bt_layer {
+            bindings = <
+                &kp Z  &bt BT_CLR_ALL    &bootloader  &bt BT_NXT     &out OUT_TOG
             >;
         };
 
-         };
+    };
 };
