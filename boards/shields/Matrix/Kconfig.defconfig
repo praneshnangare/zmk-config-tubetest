@@ -1,4 +1,4 @@
-if SHIELD_TUBETEST
+if SHIELD_MATRIX
 
 config ZMK_KEYBOARD_NAME
   default "Matrix"
