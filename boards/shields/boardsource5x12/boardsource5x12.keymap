@@ -16,7 +16,12 @@
 
         default_layer {
             bindings = <
-                &kp A   &kp B     &kp D    &mo 1 &bootloader
+                &mo 1 &bootloader &kp C &kp D &kp E &kp F &kp G
+                &kp A &kp B &kp C &kp D &kp E &kp F &kp G
+                &kp A &kp B &kp C &kp D &kp E &kp F
+                &kp A &kp B &kp C &kp D &kp E &kp F
+                &kp A &kp B &kp C &kp D &kp E
+                &kp A &kp B &kp C &kp D
             >;
         };
         bt_layer {
